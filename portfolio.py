@@ -8,7 +8,7 @@ line_url = "https://notify-api.line.me/api/notify"
 access_token = ('')
 headers = {'Authorization': 'Bearer ' + access_token}
 
-taisei_url = 'https://scfc2000.amebaownd.com/pages/1525052/static'
+taisei_url = 'https://scfc2000.amebaownd.com/pages/4352166/static'
 r1 = requests.get(taisei_url)
 soup = BeautifulSoup(r1.text, 'html.parser')
 article = soup.find(class_='block-txt txt txt--s u-txt-clr').text
